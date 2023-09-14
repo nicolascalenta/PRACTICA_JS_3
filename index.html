@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Componentes PC</title>
+    <!-- Agrega los enlaces a los estilos de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Tienda de Componentes PC</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Productos</h2>
+                <ul id="product-list"></ul>
+            </div>
+            <div class="col-md-6">
+                <h2>Carrito de Compras</h2>
+                <ul id="cart-list"></ul>
+                <p>Total: $<span id="total-price">0.00</span></p>
+                <button class="btn btn-primary" id="checkout">Pagar</button>
+                <button class="btn btn-danger" id="clear-cart">Vaciar Carrito</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Agrega los enlaces a los scripts de Bootstrap y tu archivo main.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
